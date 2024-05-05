@@ -82,11 +82,11 @@ function Navbar() {
       title: "About",
       path: "/About",
     },
-    // {
-    //     icon: <MdGroups />,
-    //     title: 'Groups',
-    //     path: '/groups'
-    // }
+    {
+        icon: <MdGroups />,
+        title: 'Groups',
+        path: '/groups'
+    }
     // {
     //     icon: <MdCheckCircle />,
     //     title: 'Shop',
@@ -188,7 +188,7 @@ function Navbar() {
             <NavLink to={"About"}>About</NavLink>
           </li>
 
-          {/* <li><NavLink to={"groups"}>Groups</NavLink></li> */}
+          <li><NavLink to={"groups"}>Groups</NavLink></li>
         </ul>
 
         {userData ? (

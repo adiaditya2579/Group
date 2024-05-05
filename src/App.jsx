@@ -205,7 +205,7 @@ function App() {
           data && <Route path="/notes" element={<Notes data={data} />} />
           data && <Route path="/calc" element={<Calculator />} />
           {/* <Route path="/grpred" element={<GradePredictor />} /> */}
-          {/* <Route path='/groups' element={<Groups />} /> */}
+          <Route path='/groups' element={<Groups />} />
           {data && (
             <Route path="/lectures" element={<Lectures data={data} />} />
           )}

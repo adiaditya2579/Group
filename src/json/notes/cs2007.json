@@ -1,0 +1,157 @@
+{
+    "title": "Machine Learning Techniques",
+    "course_id": "cs2007",
+    "notes":
+    [
+        {
+            "source": "Utkarsh Gaurav",
+            "content":
+            {
+                "Week 1": "https://drive.google.com/file/d/1NcA_CYGSrPqPpv4gfn-1H3QoclMFLAgj/view?usp=drive_link",
+                "Week 2": "https://drive.google.com/file/d/1NdhJ6AVMtlStod4iG1pqNop-AnrEkKHs/view?usp=drive_link",
+                "Week 4": "https://drive.google.com/file/d/1NqnR-I4gTAmrjl8narishqqbjjzYJqUD/view?usp=drive_link",
+                "week 5": "https://drive.google.com/file/d/1NuKoElGrK5vyjs3u97B_Q6n1Cxp_KD3I/view?usp=drive_link",
+                "week 6": "https://drive.google.com/file/d/1O2XRcL9Ex107rT-N7htW-0f-kFYM35ni/view?usp=drive_link",
+                "Week 7": "https://drive.google.com/file/d/1O8GFOiAn0Kl2xsliW-IcxicIaofHjsqO/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Amisha Ashok Das",
+            "content":
+            {
+                "Week 1": "https://drive.google.com/file/d/1OUzN5P680rGQ8QOKnpskkzct-jO5XmBw/view?usp=drive_link",
+                "Week 3": "https://drive.google.com/file/d/1OWWw55cewQtMvPFhbVx8CBwz8epNI47_/view?usp=drive_link",
+                "Week 4": "https://drive.google.com/file/d/1OabHVs1zX-_2ss9zeKdA6B6jszblhNyI/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Anand Iyer",
+            "content":
+            {
+                "Week 1-11": "https://drive.google.com/file/d/1NJc6kuoEX7I4tSotQmBJD3xClAYSmlmV/view?usp=drive_link",
+                "Formulae": "https://drive.google.com/file/d/1NKaT2-3y4HlGmtjPm0hEPdT2XhO2E-u4/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Avinash",
+            "content":
+            {
+                "Week 1": "https://drive.google.com/file/d/1NUpHrwtfoZ1vqiAmRKOhIpSKOliPsJqX/view?usp=drive_link",
+                "Week 2": "https://drive.google.com/file/d/1NaNwg8vA-08hXSd9dNedZMCNG4aPkMjP/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Sejal",
+            "content":
+            {
+                "Week 1": "https://drive.google.com/file/d/1FQ9-tIl1u_bUIJUhTppNCeZ_Lutzo92h/view?usp=drive_link",
+                "Week 2": "https://drive.google.com/file/d/1-C0xnd3lx088dn2FGX3htWly80j8I6-F/view?usp=drive_link",
+                "Week 3": "https://drive.google.com/file/d/1znh9-h1Srca4yxKrwWba1wpXlM3i2n0T/view?usp=drive_link",
+                "Week 4": "https://drive.google.com/file/d/18Cvxkxs2OLzd8LuPf0llLMXiWYlcyw7C/view?usp=drive_link",
+                "Week 5": "https://drive.google.com/file/d/1yKlg3E2HdYNOsGYT7p7tJmfv2K6Qw_CG/view?usp=drive_link",
+                "Week 6": "https://drive.google.com/file/d/15j0cW2Wa31g2x2soHxqFuHX0_PgfS2qa/view?usp=drive_link",
+                "Week 7": "https://drive.google.com/file/d/13Jv_TikUs84_GYCS19zccYWTVnt377Fz/view?usp=drive_link",
+                "Week 8": "https://drive.google.com/file/d/18rtGQxmyo7wrzyhGITCnDOMT4oh_o6d9/view?usp=drive_link",
+                "Week 9": "https://drive.google.com/file/d/1lMYK4NqcsT49AvxiEG2O78bqfyCvcs4q/view?usp=drive_link",
+                "Week 10": "https://drive.google.com/file/d/1KvXV5eYJ2bS8xzrsJgP55ME2n2Zntakt/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Sherry Thomas",
+            "content":
+            {
+                "Week 1": "https://drive.google.com/file/d/14nzW7CDYNQ6e9tkSqYdg06jy60wIeQn1/view?usp=drive_link",
+                "Week 2": "https://drive.google.com/file/d/1Q9LswmkiBJ4DVmu3zm65CP5WsBcXjCU1/view?usp=drive_link",
+                "Week 3": "https://drive.google.com/file/d/1QA1auU2PFePY1MQ-68jQ0za6YlPMM8hM/view?usp=drive_link",
+                "Week 4": "https://drive.google.com/file/d/1cViIFQP-anE6c6bgqbxAqag_xCAREqhp/view?usp=drive_link",
+                "Week 5": "https://drive.google.com/file/d/1i8DCLWjYodyDAIiHiqwUGYlnYNRhC5Ow/view?usp=drive_link",
+                "Week 7": "https://drive.google.com/file/d/1ccM6WtdWiq1M7ykReci36KPy7_gs1R2n/view?usp=drive_link",
+                "Week 8": "https://drive.google.com/file/d/1j9HiGgB5pqQs-7AkFz3bLb8rL71FUDn3/view?usp=drive_link",
+                "Week 9": "https://drive.google.com/file/d/1R7o_LL4vKFvpOXJlVeV10JlFCopGwUnm/view?usp=drive_link",
+                "Week 10": "https://drive.google.com/file/d/1Xo72gssptUna-7cbR3NQbd5kzsUnweJd/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Harsh Gupta",
+            "content":
+            {
+                "Week 1-4": "https://drive.google.com/file/d/1OGQAskS4ETj0yb99MfazSrlVa51_I_4H/view?usp=drive_link",
+                "Week 5-8": "https://drive.google.com/file/d/1ONrkWjnucEKGhNMmLYcUJFWdZpv0sqqw/view?usp=drive_link",
+                "Week 9-12": "https://drive.google.com/file/d/1OPdYHYFzYYEAeXJQP42_rSB35ddte2sj/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Aviral Pandey",
+            "content":
+            {
+                "Week 1": "https://drive.google.com/file/d/1OS0Rif8bzdtR5oC9zjdlt2G2wKy7lVP5/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Srinivasan",
+            "content":
+            {
+                "Week 1-12": "https://drive.google.com/file/d/1NSxsx0WDijq_SeatC38nDq4MrGhbkc2x/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Shubhankar Jaiswal",
+            "content":
+            {
+                "Week 1-4": "https://drive.google.com/file/d/1NUAVsAzrdF2lbLra3oNTrc-Mcx3uRxIF/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Vsist Thallam",
+            "content":
+            {
+                "Week 8": "https://drive.google.com/file/d/1OAxZSxtfanRN5C8v7_OFu_GiaR5jLiYp/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Niraj Kumar",
+            "content":
+            {
+                "Week 1-3": "https://drive.google.com/file/d/1OcMCaW9yzSoWwwQW6sE53tXJFbD1ePG9/view?usp=drive_link",
+                "Week 5": "https://drive.google.com/file/d/1OjRcIBuQldT5I6dOFHHEeBNnAF1tnfbK/view?usp=drive_link",
+                "Week 6": "https://drive.google.com/file/d/1Oskqo9KZeWYiPEUlErE_xho8s9n1gGtt/view?usp=drive_link",
+                "Week 7": "https://drive.google.com/file/d/1OspkvWMO0PybpmTlx4XeExlHuxmDJdl-/view?usp=drive_link",
+                "Week 8": "https://drive.google.com/file/d/1OvQejwK4LxYvefB27nUg6b2YvXlrnuOx/view?usp=drive_link",
+                "Week 9": "https://drive.google.com/file/d/1OzuDATIWgV6lttmdPBHA1FP3UL8XRl6Z/view?usp=drive_link",
+                "Week 10": "https://drive.google.com/file/d/1P2l7zsKwEfXohc-ajIlP9R6nRzJsSyP6/view?usp=drive_link",
+                "Week 11": "https://drive.google.com/file/d/1P3Ev6JTXHgviSfQoETSqaMBdVVVotBCe/view?usp=drive_link",
+                "Week 12": "https://drive.google.com/file/d/1P4ZjjvQZtyu8SdhnIP6nz8wv_5yjfAK2/view?usp=drive_link",
+                "Week": "https://drive.google.com/file/d/19iPcjK8Xde6qHrjrK4SCzQ7Tt-pXazRW/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Chaitanya Kumaria",
+            "content":
+            {
+                "Week 1-4": "https://drive.google.com/file/d/1FxXkjmQ9_M1h-hUWXViIslaiPiRs8urV/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Hari Paran",
+            "content":
+            {
+                "Week 1": "https://drive.google.com/file/d/19iPcjK8Xde6qHrjrK4SCzQ7Tt-pXazRW/view?usp=drive_link"
+            }
+        },
+        {
+            "source": "Anand Iyer",
+            "content":
+            {
+                "MLT Repository": "https://github.com/ananddotiyer/IIT-M/tree/main/My%20Notes/MLT",
+                "Numpy Guide on Github": "https://github.com/ananddotiyer/IIT-M/blob/main/My%20Notes/MLT/Python%20to%20numpy.ipynb"
+            }
+        },
+        {
+            "source": "Faizan Mulla",
+            "content":
+            {
+                "MLT Repository": "https://github.com/faizanxmulla/machine-learning-techniques"
+            }
+        }
+    ]
+}

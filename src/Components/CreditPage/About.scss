@@ -1,0 +1,25 @@
+@import '../../App.scss';
+
+.About-header{
+    height: 10vh;
+    border-bottom: 1px solid $bg-light-gray;
+    @include flexRow();
+    justify-content: left;
+    padding: 0 5%;
+    color: $purple-dark;
+    align-items: flex-end;
+    padding-bottom: 10px;
+
+    h1 {
+        font-size: 2rem;
+        @include flexRow();
+        color: $text-light2;
+        font-size: 1.5rem;
+        font-weight: 500;
+
+        span {
+            @include flexRow();
+            margin-right: 10px;
+        }
+    }
+}

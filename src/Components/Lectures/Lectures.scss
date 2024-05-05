@@ -1,0 +1,437 @@
+@import '../../App.scss'
+
+*
+    box-sizing: border-box
+
+.lecture-outer-container
+    height: 90vh
+    @include flexCol()
+    justify-content: flex-start
+    // padding: 0 5%;
+
+    .notes-top-header-container
+        @include flexRow()
+        width: 100%
+        justify-content: space-between
+        align-items: flex-end
+        padding: 0 5%
+        padding-bottom: 10px
+        box-sizing: border-box
+        height: 10vh
+        border-bottom: 1px solid $bg-light-gray
+        box-sizing: border-box
+
+        h1
+            color: $text-light2
+        &
+            font-size: 2rem
+
+            span
+                margin-right: 10px
+            &
+
+        select
+            padding: 0 5px
+            background-color: $bg-light-gray
+            border: none
+            cursor: pointer
+            color: $text-light2
+            font-weight: 400
+            font-size: 14px
+            height: 40px
+            width: 250px
+            outline: none
+            border-radius: 5px
+
+            option
+                height: 100px
+                padding: 8px 32px
+
+    .lecture-main-container
+        @include flexRow()
+        width: 100%
+        height: 80vh
+        padding: 0 5%
+
+        .lecture-sidebar-level-container
+            border-right: 1px solid $bg-light-gray
+            height: 100%
+            width: 17vw
+            padding: 0 10px 0 0
+            box-sizing: border-box
+
+            h1
+                font-size: 1rem
+                margin: 20px 0
+                color: $text-light2
+
+            .lectures-subject-container
+                // border: 2px solid red;
+                height: 80vh
+                overflow-y: auto
+                padding-bottom: 20px
+
+                &::-webkit-scrollbar
+                    display: none
+
+                ul
+
+                    li
+                        list-style: none
+                        // height: 50px;
+                        margin-top: 10px
+                        border-bottom: 1px solid $bg-light-gray
+                        @include flexRow()
+                        justify-content: flex-start
+                        padding: 16px 24px
+                        font-weight: 500
+                        color: $text-light
+                        cursor: pointer
+                        transition: 100ms color ease-in-out, 100ms background-color ease-in-out
+                        position: relative
+                        border-radius: 5px
+                        overflow: hidden
+                        justify-content: space-between
+
+                        .right-arrow
+                            transition: 100ms transform ease-in-out
+
+                        &:hover .right-arrow
+                            transform: translateX(10px)
+
+                        // &::before {
+                        //     position: absolute;
+                        //     content: '';
+                        //     top: 0;
+                        //     left: 0;
+                        //     width: 5px;
+                        //     height: 100%;
+                        //     opacity: 0;
+                        //     background-color: $purple-dark;
+                        //     transition: 100ms opacity ease-in-out;
+                        // }
+
+                        &:hover::before
+                            width: 5px
+                            opacity: 1
+
+                        &:hover
+                            background-color: $purple-dark
+                            // background-color: $bg-light-gray;
+                            color: white
+
+                    .active
+                        background-color: $purple-dark
+                        color: white
+                        // box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.200);
+
+                        .right-arrow
+                            transform: translateX(10px)
+
+                        // &::before {
+                        //     position: absolute;
+                        //     content: '';
+                        //     top: 0;
+                        //     left: 0;
+                        //     width: 5px;
+                        //     height: 100%;
+                        //     opacity: 1;
+                        //     background-color: $purple-dark;
+                        //     transition: 100ms opacity ease-in-out;
+                        // }
+
+        .main-lecture-body-container
+
+            @include flexRow()
+            align-items: flex-start
+            justify-content: flex-start
+            flex: 1
+            height: 100%
+
+            .lecture-sidebar-week-container
+                height: 100%
+                width: 20vw
+                @include flexCol()
+                justify-content: flex-start
+                padding: 0 10px
+                box-sizing: border-box
+                border-right: 1px solid $bg-light-gray
+                overflow: auto
+
+                .accordian
+                    width: 100%
+                    min-height: 50px
+                    height: auto
+                    margin: 20px 0
+                    overflow: hidden
+                    user-select: none
+                    transition: 100ms height ease-in-out
+                    border: 1px solid $bg-light
+                    border-radius: 5px
+                    overflow: hidden
+
+        &-header
+            border-radius: 5px 5px 0 0
+            @include flexRow()
+                justify-content: space-between
+                height: 50px
+                padding: 0 10px
+                background-color: $bg-light-gray
+                color: $text-light
+                cursor: pointer
+                position: relative
+                overflow: hidden
+
+                .down-arrow-container
+                    font-size: 1.3rem
+                    @include flexRow()
+
+                        // &::before{
+                        //     position: absolute;
+                        //     content: '';
+                        //     left: 0;
+                        //     top: 0;
+                        //     height: 100%;
+                        //     width: 5px;
+                        //     background-color: $purple-dark;
+                        // }
+
+                        h1
+                            font-size: 1rem
+                            font-weight: 500
+
+                    .accordian-lists
+                        min-height: auto
+
+                        ul
+                            height: 100%
+                            padding: 10px 0
+
+                            li
+                                padding: 20px 10px
+                                min-height: 40px
+                                height: auto
+                                width: 90%
+                                list-style: none
+                                cursor: pointer
+                                color: $text-light
+                                font-weight: 300
+                                margin: 0px auto
+                                position: relative
+                                word-wrap: break-word
+                                border-bottom: 1px solid $bg-light-gray
+                                transition: 100ms background-color ease-in-out
+
+                                &::before
+                                    position: absolute
+                                    content: ''
+                                    bottom: 0
+                                    left: 0
+                                    width: 100%
+                                    height: 3%
+                                    opacity: 0
+                                    background-color: $purple-dark
+                                    transition: 100ms opacity ease-in-out
+
+                                &:hover::before
+                                    opacity: 1
+
+                                &:hover
+                                    // color: $purple-dark;
+                                    color: $text-light2
+                                    // background-color: $bg-light-gray;
+
+                            .active
+                                color: $text-light2
+                                // color: white;
+                                font-weight: 500
+                                position: relative
+                                // background-color: $bg-light-gray;
+
+                                &::before
+                                    position: absolute
+                                    content: ''
+                                    bottom: 0
+                                    left: 0
+                                    width: 100%
+                                    height: 3%
+                                    opacity: 1
+                                    background-color: $purple-dark
+                                    transition: 100ms opacity ease-in-out
+
+                .expand
+                    min-height: auto
+                    transition: 100ms height ease-in-out
+                    overflow: visible
+                    border: 1px solid $bg-light-gray
+
+            .video-main-container
+                height: 90%
+                flex: 1
+                padding: 20px
+                h1
+                    color: white
+                    text-align: center
+
+@Media only screen and (max-width: 821px)
+
+    .lecture-outer-container
+        flex-direction: column
+        height: 120vh
+
+        .notes-top-header-container
+            @include flexRow()
+            height: 15vh
+            // border: 2px solid red;
+            justify-content: space-between
+            padding: 0 5%
+
+            h1
+                color: $purple-mid
+
+            select
+                width: 200px
+
+                option
+                    height: 100px
+                    padding: 8px 32px
+
+        .lecture-main-container
+            flex-direction: column
+            justify-content: flex-start
+            height: 110vh
+
+            .lecture-sidebar-level-container
+                width: 100%
+                height: auto
+                border: none
+                margin: 0
+
+                .lectures-subject-container
+                    height: auto
+                    padding: 20px 0
+                    overflow-x: scroll
+
+                    ul
+                        display: flex
+                        align-items: center
+                        justify-content: left
+                        width: auto
+
+                        li
+                            overflow: visible
+                            width: 300px
+                            border-radius: 100px
+                            // border: 2px solid red;
+                            background-color: $bg-light-gray
+                            text-wrap: nowrap
+                            padding: 10px 20px
+                            margin: 0 10px
+                            color: $text-dark
+
+            .main-lecture-body-container
+                flex-direction: column-reverse
+                width: 100%
+                margin-top: 50px
+                min-height: 30vh
+                height: auto
+
+                .lecture-sidebar-week-container
+                    width: 100%
+                    margin-top: 20px
+                    flex: 1
+
+                .video-main-container
+                    height: 400px
+                    width: 100%
+                    flex: 1
+                    padding: 0px
+
+@Media only screen and (max-width: 425px)
+
+    .lecture-outer-container
+        flex-direction: column
+        height: 120vh
+
+        .notes-top-header-container
+            @include flexRow()
+            height: 15vh
+            padding: 0
+            justify-content: space-evenly
+            flex-direction: column
+            align-items: flex-start
+            padding: 0 5%
+
+            h1
+                color: $purple-dark
+                margin-top: 20px
+
+            .course-select-dropdown
+                margin-top: 10px
+                width: 100%
+
+                select
+                    width: 100%
+                    font-size: 1.2rem
+
+                    option
+                        height: 100px
+                        padding: 8px 32px
+
+        .lecture-main-container
+            flex-direction: column
+            justify-content: flex-start
+            height: 110vh
+
+            .lecture-sidebar-level-container
+                width: 100%
+                height: 15vh
+                border: none
+                margin: 0
+
+                .lectures-subject-container
+                    // border: 2px solid red;
+                    height: 15vh
+                    // padding: 20px 0;
+                    overflow-x: scroll
+                    @include flexRow()
+                    justify-content: left
+                    align-items: center
+
+                    ul
+                        display: flex
+                        align-items: center
+                        justify-content: left
+                        width: auto
+
+                        li
+                            overflow: visible
+                            width: auto
+                            border-radius: 100px
+                            // border: 2px solid red;
+                            background-color: $bg-light-gray
+                            text-wrap: nowrap
+                            padding: 10px 20px
+                            margin: 0 10px
+                            color: $text-dark
+
+                            .right-arrow
+                                display: none
+
+            .main-lecture-body-container
+                flex-direction: column-reverse
+                width: 100%
+                margin-top: 0px
+                min-height: 30vh
+                height: auto
+
+                .lecture-sidebar-week-container
+                    width: 100%
+                    margin-top: 20px
+                    flex: 1
+
+                .video-main-container
+                    max-height: 300px
+                    width: 100%
+                    flex: 1
+                    padding: 0px

@@ -1,0 +1,218 @@
+@import '../../App.scss';
+
+.nav-outer-container {
+    width: 100%;
+    height: 10vh;
+    @include flexRow();
+    // background-color: $purple-dark;
+    background-color: $bg-light;
+    // background-color: #6D28D9;
+    justify-content: space-between;
+    padding: 0px 5%;
+    box-sizing: border-box;
+    border-bottom: 1px solid $bg-light-gray;
+
+    .logo-container h1 {
+        color: white;
+        font-size: 2rem;
+    }
+
+    .nav-container {
+        @include flexRow();
+        justify-content: flex-end;
+
+        ul {
+            @include flexRow();
+
+            li {
+                list-style: none;
+                margin: 0px 20px;
+                cursor: pointer;
+                // color: $text-light;
+                color: rgb(212, 212, 212);
+                font-weight: 400;
+                position: relative;
+                font-size: 1rem;
+            }
+
+            a {
+                padding: 0px 5px;
+                width: 100%;
+            }
+
+            li::before {
+                position: absolute;
+                content: '';
+                right: 0;
+                bottom: -20%;
+                height: 10%;
+                width: 0%;
+                // background-color: $purple-mid;
+                background-color: white;
+                transition: 100ms width ease-in-out;
+            }
+
+            a.active {
+                // color: $purple-dark;
+                color: white;
+                position: relative;
+                font-weight: 500;
+
+            }
+
+
+            li:hover {
+                // color: $purple-dark;
+                color: white;
+            }
+
+            li:hover::before {
+                left: 0;
+                width: 100%;
+            }
+        }
+
+    }
+
+    .nav-btn-container {
+        @include flexRow();
+        width: auto;
+        justify-content: space-between;
+
+        .notification-btn-container {
+            font-size: 1.5rem;
+            height: 40px;
+            width: 40px;
+            @include flexRow();
+            margin-right: 20px;
+            cursor: pointer;
+            // color: $text-light;
+            color: white;
+            // transition: 100ms transform ease-in-out;
+        }
+
+        .btn-container {
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    .hamburger-container {
+        font-size: 2rem;
+        @include flexRow();
+        display: none;
+        color: white;
+    }
+
+    .mobile-nav-main-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 704px) {
+
+    .nav-outer-container {
+        width: 100vw;
+
+        .nav-container {
+            display: none;
+        }
+
+        .nav-btn-container {
+            display: none;
+        }
+
+        .hamburger-container {
+            display: flex;
+            @include flexRow();
+        }
+
+        .mobile-nav-main-container {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            height: 100%;
+            // border: 2px solid red;
+            width: 80%;
+            background-color: $bg-light;
+            box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.20);
+            z-index: 3;
+            padding: 0 5%;
+            box-sizing: border-box;
+            overflow: hidden;
+            transform: translateX(-100%);
+            transition: 200ms transform ease-in-out;
+
+            .close-btn-container {
+                font-size: 2rem;
+                position: absolute;
+                right: 20px;
+                top: 40px;
+                color: white
+            }
+
+
+
+            .user-data-container {
+                @include flexCol();
+                align-items: flex-start;
+                height: 15vh;
+
+                h1 {
+                    color: $text-light;
+                }
+
+                h3 {
+                    color: $text-light2;
+                    margin-top: 10px;
+                    font-weight: 500px;
+                    font-size: 1.5rem;
+                }
+            }
+
+            .mobile-nav-container {
+                @include flexCol();
+                align-items: flex-start;
+
+                ul {
+                    width: 100%;
+
+
+                    li {
+                        list-style: none;
+                        border-bottom: 1px solid $bg-light-gray;
+                        width: 100%;
+                        height: 50px;
+                        margin-bottom: 20px;
+                        @include flexRow();
+                        justify-content: left;
+
+                        span {
+                            font-size: 1.8rem;
+                            @include flexRow();
+                            color: $text-light;
+                            // border: 2px solid red;
+                        }
+
+                        .mb-nav-link {
+                            font-weight: 500;
+                            margin-left: 20px;
+                            font-size: 1.1rem;
+                            color: $text-light;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .showNav {
+            transform: translateX(0);
+            transition: 200ms transform ease-in-out;
+        }
+    }
+
+
+}

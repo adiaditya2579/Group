@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 10px;
+  background: #27272a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  -webkit-border-radius: 1ex;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6d28d9;
+}
+
+::-webkit-scrollbar-corner {
+  background: #000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html,
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #27272a;
+}
+
+.pyq-outer-container {
+  height: 90vh;
+}
+.pyq-outer-container .pyq-header-container {
+  height: fit-content;
+  padding: 0 5%;
+  border-bottom: 1px solid #393939;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.pyq-outer-container .pyq-header-container h1 {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+.pyq-outer-container .pyq-header-container h1 span {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.pyq-outer-container .pyq-header-container select {
+  width: 250px;
+  height: 40px;
+  margin-left: 20px;
+  color: #fff;
+  background: #393939;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 5px;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.pyq-outer-container .pyq-body-main-container {
+  height: 80vh;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.pyq-outer-container .pyq-body-main-container .sidebar-main-container {
+  border-right: 1px solid #393939;
+  width: 20vw;
+  height: 100%;
+  overflow-y: auto;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .sidebar-main-container::-webkit-scrollbar {
+  width: 5px;
+}
+.pyq-outer-container .pyq-body-main-container .sidebar-main-container ul {
+  padding: 5% 10% 0 0;
+}
+.pyq-outer-container .pyq-body-main-container .sidebar-main-container ul li {
+  margin-top: 10px;
+  list-style: none;
+  padding: 16px 24px;
+  cursor: pointer;
+  border-bottom: 1px solid #393939;
+  border-radius: 5px;
+  color: #c1c3c8;
+  font-size: 1rem;
+  transition: 100ms background-color ease-in-out, 100ms color ease-in-out;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .sidebar-main-container
+  ul
+  li
+  .arrow-container {
+  transition: 100ms transform ease-in-out;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .sidebar-main-container
+  ul
+  li:hover
+  .arrow-container {
+  transform: translateX(10px);
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .sidebar-main-container
+  ul
+  li:hover {
+  background-color: #6d28d9;
+  color: white;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .sidebar-main-container
+  ul
+  li:hover::before {
+  opacity: 1;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .sidebar-main-container
+  ul
+  .active {
+  background-color: #6d28d9;
+  color: white;
+  border-radius: 5px;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .sidebar-main-container
+  ul
+  .active
+  .arrow-container {
+  transform: translateX(10px);
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .sidebar-main-container
+  ul
+  .active::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 2%;
+  opacity: 1;
+  background-color: #6d28d9;
+  transition: 100ms opacity ease-in-out;
+}
+.pyq-outer-container .pyq-body-main-container .pyq-container {
+  height: 100%;
+  width: 80vw;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: left;
+  padding: 0 5%;
+}
+.pyq-outer-container .pyq-body-main-container .pyq-container .error-msg {
+  color: #fff;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .pyq-container
+  .pyq-right-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 50px;
+  margin-top: 3%;
+  margin-bottom: 10px;
+  color: white;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.pyq-outer-container .pyq-body-main-container .pyq-container a {
+  width: 100%;
+}
+.pyq-outer-container .pyq-body-main-container .pyq-container .pyq {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 1px solid #393939;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #c1c3c8;
+  transition: 100ms background-color ease-in-out, 100ms color ease-in-out,
+    100ms box-shadow ease-in-out, 100ms transform ease-in-out;
+  margin-bottom: 10px;
+  justify-content: flex-start;
+}
+.pyq-outer-container .pyq-body-main-container .pyq-container .pyq:hover {
+  background-color: #6d28d9;
+  color: white;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
+  transform: scale(1.02, 1.02);
+}
+.pyq-outer-container .pyq-body-main-container .pyq-container .pyq .pyq-common {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex: 1;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .pyq-container
+  .pyq
+  .pyq-common:first-child {
+  justify-content: left;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .pyq-container
+  .pyq
+  .pyq-common:last-child {
+  justify-content: right;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .pyq-container
+  .pyq
+  .pyq-common
+  p {
+  margin-left: 10px;
+  text-align: right;
+  max-width: 300px;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .pyq-container
+  .pyq
+  .pyq-common
+  .pyq-icon-container {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .pyq-container
+  .pyq
+  .pyq-common
+  .save-icon {
+  font-size: 1.5rem;
+  padding: 5px;
+  transition: 100ms background-color ease-in-out, 100ms color ease-in-out;
+  border-radius: 100px;
+}
+.pyq-outer-container
+  .pyq-body-main-container
+  .pyq-container
+  .pyq
+  .pyq-common
+  .save-icon:hover {
+  background-color: white;
+  color: #6d28d9;
+}
+
+@media only screen and (max-width: 821px) {
+  .pyq-outer-container .pyq-header-container .pyq-dropdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .pyq-outer-container .pyq-header-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .pyq-outer-container .pyq-header-container .pyq-dropdown-container select {
+    width: 150px;
+  }
+   .pyq-outer-container .pyq-body-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+  .pyq-outer-container .pyq-body-main-container .sidebar-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 15vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    border: none;
+  }
+  .pyq-outer-container
+    .pyq-body-main-container
+    .sidebar-main-container::-webkit-scrollbar {
+    display: none;
+  }
+  .pyq-outer-container .pyq-body-main-container .sidebar-main-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: left;
+    padding: 20px 0;
+    width: auto;
+    border: none;
+  }
+  .pyq-outer-container .pyq-body-main-container .sidebar-main-container ul li {
+    width: auto;
+    text-wrap: nowrap;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background-color: #393939;
+    color: #c1c3c8;
+  }
+  .pyq-outer-container
+    .pyq-body-main-container
+    .sidebar-main-container
+    ul
+    li
+    .arrow-container {
+    display: none;
+  }
+  .pyq-outer-container
+    .pyq-body-main-container
+    .sidebar-main-container
+    ul
+    li::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 2%;
+    opacity: 0;
+    background-color: #6d28d9;
+    transition: 100ms opacity ease-in-out;
+  }
+  .pyq-outer-container
+    .pyq-body-main-container
+    .sidebar-main-container
+    ul
+    li:hover::before {
+    opacity: 1;
+  }
+  .pyq-outer-container
+    .pyq-body-main-container
+    .sidebar-main-container
+    ul
+    .active {
+    background-color: #6d28d9;
+    border-radius: 100px;
+    color: white;
+  }
+  .pyq-outer-container .pyq-body-main-container .pyq-container {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .pyq-outer-container
+    .pyq-body-main-container
+    .pyq-container
+    .pyq
+    .pyq-author-container {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .pyq-outer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+  }
+  .pyq-outer-container .pyq-header-container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px 0;
+    width: 90%;
+  }
+  .pyq-outer-container .pyq-header-container h1 {
+    height: auto;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+  .pyq-outer-container .pyq-header-container h1 span {
+    font-size: 2rem;
+  }
+  .pyq-outer-container .pyq-header-container .pyq-dropdown-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .pyq-outer-container .pyq-header-container .pyq-dropdown-container select {
+    width: 100%;
+    margin: 5px 0;
+  }
+ 
+} /*# sourceMappingURL=Pyq.css.map */

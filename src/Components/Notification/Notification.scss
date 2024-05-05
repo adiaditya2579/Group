@@ -1,0 +1,36 @@
+@import '../../App.scss';
+
+.notification-main-container {
+    height: 0vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $purple-dark;
+    @include flexRow();
+    justify-content: space-between;
+    padding: 0 5%;
+    color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 100ms height ease-in-out;
+    
+    
+    p {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .close-btn-container {
+        font-size: 1.5rem;
+        @include flexRow();
+        cursor: pointer;
+    }
+}
+
+.show {
+    height: 7vh;
+    transition: 100ms height ease-in-out;
+    transition-delay: 2s;
+}

@@ -1,0 +1,131 @@
+@import '../../App.scss';
+
+.shop-outer-container {
+
+    // border: 2px solid red;
+    min-height: 90vh;
+    height: auto;
+    padding: 0 5%;
+
+    .shop-header-container {
+        // border: 2px solid red;
+        @include flexRow();
+        height: 15vh;
+        text-transform: capitalize;
+        color: $purple-dark;
+    }
+
+    .cards-container {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+        
+        .card {
+            // border: 2px solid red;
+            border: 1px solid $bg-light-gray;
+            border-radius: 5px;
+            overflow: hidden;
+            height: auto;
+            min-width: 300px;
+            
+            &:hover .img-container img{
+                transform: scale(0.9, 0.9);
+                // transform: scale(1.1, 1.1);
+            }
+
+            .img-container {
+                width: 100%;
+                height: 250px;
+                overflow: hidden;
+                
+                img {
+                    // border: 2px solid green;
+                    transition: transform 100ms ease-in-out;
+                    width: 100%;
+                }
+            }
+
+            .card-content-container {
+                // height: 2050px/;
+                background-color: white;
+
+                .header {
+                    // border: 2px solid red;
+                    border-bottom: 1px solid $bg-light-gray;
+                    border-top: 1px solid $bg-light-gray;
+                    min-height: 50px;
+                    padding: 10px;
+                    @include flexRow();
+                    justify-content: flex-start;
+                    // height: 50px;k
+                    
+                    h2 {
+                        font-size: 1.1rem;
+                        color: $text-dark;
+                        // height: 40px;
+                        display: -webkit-box; 
+                        -webkit-box-orient: vertical; 
+                        -webkit-line-clamp: 2; 
+                        overflow: hidden; 
+                        text-overflow: ellipsis; 
+
+                    }
+                }
+
+                .desc-container {
+                    border-bottom: 1px solid $bg-light-gray;
+                    height: 60px;
+                    padding: 10px;
+
+
+                    p {
+                        color: $text-light;
+                        font-size: 0.9rem;
+                        line-height: 150%;
+                        font-weight: 500;
+                        display: -webkit-box; 
+                        -webkit-box-orient: vertical; 
+                        -webkit-line-clamp: 2; 
+                        overflow: hidden; 
+                        text-overflow: ellipsis; 
+                        // color: $purple-dark;
+
+                    }
+                }
+
+                .buy-btn-container {
+                    // border: 2px solid red;
+                    width: 100%;
+                    @include flexCol();
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    padding: 10px;
+                    box-sizing: border-box;
+
+                    h2 {
+                        color: $purple-dark;
+                        font-size: 1.1rem;
+                        padding: 10px;
+                    }
+
+                    a {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 414px) {
+    .cards-container{
+        // border: 2px solid red;
+
+        .card{
+            width: 100%;
+        }   
+
+    }
+}

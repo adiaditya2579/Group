@@ -1,0 +1,390 @@
+@import '../../App.scss';
+
+.pyq-outer-container {
+    // border: 2px solid red;
+    height: 90vh;
+
+    .pyq-header-container {
+        height: 10vh;
+        padding: 0 5%;
+        border-bottom: 1px solid $bg-light-gray;
+        padding-bottom: 10px;
+
+        @include flexRow();
+        justify-content: space-between;
+        align-items: flex-end;
+
+        h1 {
+            text-transform: capitalize;
+            font-weight: 500;
+            color: $text-light2;
+            @include flexRow();
+            font-size: 1.5rem;
+
+            span {
+                margin-right: 10px;
+                @include flexRow();
+
+            }
+        }
+
+
+        select {
+            width: 250px;
+            height: 40px;
+            margin-left: 20px;
+            color: $text-light2;
+            background: $bg-light-gray;
+            border-radius: 5px;
+            border: none;
+            padding: 0px 5px;
+            outline: none;
+            cursor: pointer;
+            font-size: 14px;
+            text-transform: capitalize;
+            font-weight: 400;
+        }
+    }
+
+    .pyq-body-main-container {
+        // border: 2px solid green;
+        height: 80vh;
+        padding: 0 5%;
+        @include flexRow();
+        justify-content: flex-start;
+
+
+        .sidebar-main-container {
+            // border: 2px solid black;
+            border-right: 1px solid $bg-light-gray;
+            width: 20vw;
+            height: 100%;
+            // border: 2px solid red;
+            overflow-y: auto;
+
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            ul {
+                // border: 2px solid red;
+                // padding: 0 10%;
+                padding: 5% 10% 0 0;
+
+                li {
+                    margin-top: 10px;
+                    list-style: none;
+                    padding: 16px 24px;
+                    cursor: pointer;
+                    border-bottom: 1px solid $bg-light-gray;
+                    border-radius: 5px;
+                    color: $text-light;
+                    font-size: 1rem;
+                    transition: 100ms background-color ease-in-out, 100ms color ease-in-out;
+                    position: relative;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                    @include flexRow();
+                    justify-content: space-between;
+
+                    .arrow-container {
+                        transition: 100ms transform ease-in-out;
+                    }
+
+                    &:hover .arrow-container {
+                        transform: translateX(10px);
+                    }
+
+                    &:hover {
+                        background-color: $purple-dark;
+                        color: white;
+                    }
+
+                    &:hover::before {
+                        opacity: 1;
+                    }
+                }
+
+                .active {
+                    background-color: $purple-dark;
+                    color: white;
+                    border-radius: 5px;
+
+                    .arrow-container {
+                        transform: translateX(10px);
+                    }
+
+                    &::before {
+                        position: absolute;
+                        content: '';
+                        left: 0;
+                        bottom: 0;
+                        height: 100%;
+                        width: 2%;
+                        opacity: 1;
+                        background-color: $purple-dark;
+                        transition: 100ms opacity ease-in-out;
+                    }
+                }
+            }
+        }
+
+
+        // .pyq-container{
+        //     border: 2px solid red;
+        //     height: 100%;
+        //     width: 100%;
+
+        //     @include flexCol();
+        //     justify-content: flex-start;
+
+
+        //     .pyq-right-header-container{
+        //         @include flexRow();
+        //         border: 2px solid green;
+        //         width: 100%;
+        //         justify-content: space-between;
+        //         padding: 0 5%;
+        //     }
+        // }
+
+
+        .pyq-container {
+            // border: 2px solid red;
+            height: 100%;
+            width: 80vw;
+            overflow-y: auto;
+            @include flexCol();
+            justify-content: left;
+            padding: 0 5%;
+
+            .error-msg {
+                color: $text-light2
+            }
+
+            .pyq-right-header-container {
+                @include flexRow();
+                justify-content: space-between;
+                width: 100%;
+                font-size: 1rem;
+                font-weight: 400;
+                // border: 2px solid red;
+                height: 50px;
+                margin-top: 3%;
+                margin-bottom: 10px;
+                // color: $purple-dark;
+                color: white;
+                padding: 0 20px;
+                box-sizing: border-box;
+
+            }
+
+            a {
+                width: 100%;
+            }
+
+            .pyq {
+                width: 100%;
+                min-height: 50px;
+                @include flexRow();
+                border: 1px solid $bg-light-gray;
+                border-radius: 5px;
+                cursor: pointer;
+                box-sizing: border-box;
+                justify-content: space-between;
+                padding: 0 20px;
+                color: $text-light;
+                transition: 100ms background-color ease-in-out, 100ms color ease-in-out, 100ms box-shadow ease-in-out, 100ms transform ease-in-out;
+                margin-bottom: 10px;
+                justify-content: flex-start;
+
+                &:hover {
+                    background-color: $purple-dark;
+                    color: white;
+                    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
+                    transform: scale(1.02, 1.02)
+                }
+
+
+                .pyq-common {
+                    @include flexRow();
+                    flex: 1;
+
+                    &:first-child {
+                        justify-content: left;
+                    }
+
+                    &:last-child {
+                        justify-content: right;
+                    }
+
+                    p {
+                        margin-left: 10px;
+                        text-align: right;
+                        max-width: 300px;
+                        height: 20px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+
+                    .pyq-icon-container {
+                        font-size: 1.2rem;
+                        @include flexRow();
+                    }
+
+                    .save-icon {
+                        // border: 2px solid red;
+                        font-size: 1.5rem;
+                        padding: 5px;
+                        transition: 100ms background-color ease-in-out, 100ms color ease-in-out;
+                        border-radius: 100px;
+
+                        &:hover {
+                            background-color: white;
+                            color: $purple-dark;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 821px) {
+    .pyq-outer-container{
+
+        .pyq-header-container{
+
+            .pyq-dropdown-container{
+                @include flexRow();
+
+                select{
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 415px) {
+    .pyq-outer-container {
+        @include flexCol();
+        height: auto;
+
+        .pyq-header-container {
+            height: auto;
+            @include flexCol();
+            justify-content: flex-end;
+            align-items: flex-start;
+            padding: 20px 0;
+            width: 90%;
+
+            h1 {
+                // border: 2px solid green;
+                height: auto;
+                font-size: 1.5rem;
+                width: 100%;
+                text-align: left;
+                padding: 0;
+                margin: 0;
+
+                span {
+                    font-size: 2rem;
+                }
+            }
+
+            .pyq-dropdown-container {
+                width: 100%;
+
+                select {
+                    width: 100%;
+                    margin: 20px 0;
+                }
+            }
+        }
+
+        .pyq-body-main-container {
+            @include flexCol();
+            padding: 0;
+            width: 90%;
+
+            .sidebar-main-container {
+                @include flexRow();
+                width: 100%;
+                // padding: 10px 0;
+                height: 15vh;
+                overflow-x: auto;
+                overflow-y: hidden;
+                justify-content: flex-start;
+                box-sizing: border-box;
+                border: none;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+
+
+                ul {
+                    @include flexRow();
+                    justify-content: left;
+                    padding: 20px 0;
+                    width: auto;
+                    border: none;
+
+                    li {
+                        width: auto;
+                        text-wrap: nowrap;
+                        margin: 0 10px;
+                        padding: 10px 20px;
+                        border-radius: 100px;
+                        background-color: $bg-light-gray;
+                        color: $text-light;
+
+                        .arrow-container {
+                            display: none;
+                        }
+
+
+                        &::before {
+                            position: absolute;
+                            content: '';
+                            left: 0;
+                            bottom: 0;
+                            height: 100%;
+                            width: 2%;
+                            opacity: 0;
+                            background-color: $purple-dark;
+                            transition: 100ms opacity ease-in-out;
+                        }
+
+                        &:hover::before {
+                            opacity: 1;
+                        }
+
+                    }
+
+                    .active {
+                        background-color: $purple-dark;
+                        border-radius: 100px;
+                        color: white;
+                    }
+                }
+            }
+
+            .pyq-container {
+                width: 95%;
+                padding: 0;
+                margin-top: 20px;
+
+                .pyq {
+                    .pyq-author-container {
+                        // display: none;
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

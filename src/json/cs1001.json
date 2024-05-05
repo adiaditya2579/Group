@@ -1,0 +1,644 @@
+[
+  {
+    "title": "CT",
+    "week_wise": [
+      {
+        "videos": [
+          {
+            "title": "Introductory video",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec01.vtt",
+            "yt_vid": "S-7LrggTfA8"
+          }
+        ],
+        "title": "Course Introduction"
+      },
+      {
+        "videos": [
+          {
+            "title": "L1.1: Introduction to datasets",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec02.vtt",
+            "yt_vid": "sk8PiORnBWI"
+          },
+          {
+            "title": "L1.2: Concept of variables, iterators and filtering",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec03.vtt",
+            "yt_vid": "dHsj5rP-2E8"
+          },
+          {
+            "title": "Week 1 Tutorial for Lecture 2",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec04.vtt",
+            "yt_vid": "IeL6nSHzxK0"
+          },
+          {
+            "title": "L1.3: Iterations using combination of filtering conditions",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec05.vtt",
+            "yt_vid": "erBdGbJHAIM"
+          },
+          {
+            "title": "Week 1 Tutorial for Lecture 3",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec06.vtt",
+            "yt_vid": "EJla4ipH_9Q"
+          },
+          {
+            "title": "L1.4: Introduction to flowcharts",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec07.vtt",
+            "yt_vid": "tIghkvvshkw"
+          },
+          {
+            "title": "L1.5: Flowchart for sum with filtering",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec08.vtt",
+            "yt_vid": "0whIzsNWTn4"
+          },
+          {
+            "title": "Week 1 Tutorial for Lecture 5",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec09.vtt",
+            "yt_vid": "hKSAvWxI82w"
+          },
+          {
+            "title": "L1.6: Sanity of data",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec10.vtt",
+            "yt_vid": "BV-dvbL5X6c"
+          },
+          {
+            "title": "L1.7: Introduction to datatypes",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec11.vtt",
+            "yt_vid": "x3cI8cOfVyw"
+          },
+          {
+            "title": "L1.8: Subtypes of basic datatypes",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec12.vtt",
+            "yt_vid": "BKcTH7d-3pQ"
+          },
+          {
+            "title": "L1.9: Transformation of sub-datatypes",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec13.vtt",
+            "yt_vid": "X2_MywjKDI4"
+          },
+          {
+            "title": "L1.10: Introduction to complex datatypes",
+            "transcript_vtt_url": "https://seek-ode-prod.el.r.appspot.com/20t1_cs1001/assets/img/Lec14.vtt",
+            "yt_vid": "V7SzZQDa4oQ"
+          }
+        ],
+        "title": "Week 1"
+      },
+      {
+        "videos": [
+          {
+            "title": "L2.1: Conditional termination in iteration",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-15.vtt",
+            "yt_vid": "1qaNiVt3S0U"
+          },
+          {
+            "title": "L2.2: Local operations and max in single iteration (Part 1)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-16.vtt",
+            "yt_vid": "LuCCE9Hr1B8"
+          },
+          {
+            "title": "Week 2 Tutorial 2.1",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-17.vtt",
+            "yt_vid": "sstsbn6Kfk8"
+          },
+          {
+            "title": "L2.3: Local operations and max in single iteration (Part 2)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-18.vtt",
+            "yt_vid": "Y8dXr1_BqLA"
+          },
+          {
+            "title": "Week 2 Tutorial 2.2",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-19.vtt",
+            "yt_vid": "Ru9OBmTzAk4"
+          },
+          {
+            "title": "L2.4: Local operations and max in single iteration (Part 3)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-20.vtt",
+            "yt_vid": "uZCCqBA5yEg"
+          },
+          {
+            "title": "Week 2 Tutorial 2.3",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-21.vtt",
+            "yt_vid": "AIWu-rjTRoE"
+          },
+          {
+            "title": "L2.5: Local operations and max in single iteration (Part 4)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-22.vtt",
+            "yt_vid": "fiUmzqcSr2g"
+          },
+          {
+            "title": "Week 2 Tutorial 2.4",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-23.vtt",
+            "yt_vid": "hg9U0u2SnoI"
+          },
+          {
+            "title": "L2.6: Max in a single iteration and max in two iterations (non-nested)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-24.vtt",
+            "yt_vid": "dAGDLvowou0"
+          },
+          {
+            "title": "Week 2 Tutorial 2.5",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-25.vtt",
+            "yt_vid": "7IrYEB76DvE"
+          },
+          {
+            "title": "L2.7: Max in a single iteration without losing information and applications of frequency count",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-26.vtt",
+            "yt_vid": "7ax1GgwGBXQ"
+          },
+          {
+            "title": "Week 2 Tutorial 2.6",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-27.vtt",
+            "yt_vid": "-rQrkiYh4kY"
+          },
+          {
+            "title": "Week 2 Tutorial 2.7",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-28.vtt",
+            "yt_vid": "D9dX0pWIWeM"
+          },
+          {
+            "title": "L2.8: Flowchart for max marks",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-29.vtt",
+            "yt_vid": "QwsHlgmQ-hs"
+          },
+          {
+            "title": "L2.9: Introduction to pseudocodes",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-30.vtt",
+            "yt_vid": "O4LRi_m9Qm8"
+          },
+          {
+            "title": "L2.10: Pseudocode for iteration with filtering",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-31.vtt",
+            "yt_vid": "cRn2ItcHVFM"
+          },
+          {
+            "title": "Week 2 Tutorial 2.8",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-32.vtt",
+            "yt_vid": "TtrHzFJSFw4"
+          }
+        ],
+        "title": "Week 2"
+      },
+      {
+        "videos": [
+          {
+            "title": "L3.1: Presentation of datasets in the form of a table",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-33.vtt",
+            "yt_vid": "mAFTpNQwVw4"
+          },
+          {
+            "title": "Week 3 Tutorial 3.1",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec_34.vtt",
+            "yt_vid": "1Br5HJkAEZw"
+          },
+          {
+            "title": "L3.2:  Below average students in two iterations (non-nested) and grade allocation",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-35.vtt",
+            "yt_vid": "XOl8xpGnQNw"
+          },
+          {
+            "title": "Week 3 Tutorial 3.2",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-36.vtt",
+            "yt_vid": "no31UdAhrWo"
+          },
+          {
+            "title": "L3.3:  Systematic process of hypothesis verification to find the relation between word length and frequency",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-37.vtt",
+            "yt_vid": "cmHWZWa0JS4"
+          },
+          {
+            "title": "L3.4:  Three prizes problem",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-38.vtt",
+            "yt_vid": "SAxoh4BREbg"
+          },
+          {
+            "title": "L3.5:  Introduction to procedures and parameters",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-39.vtt",
+            "yt_vid": "_1oVAZOQDfI"
+          },
+          {
+            "title": "L3.6:  Pseudocode for procedures and parameters (Part 1)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-40.vtt",
+            "yt_vid": "uo02K7nPVnQ"
+          },
+          {
+            "title": "L3.7:  Pseudocode for procedures and parameters (Part 2)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-41.vtt",
+            "yt_vid": "tc3IP6SiuXA"
+          },
+          {
+            "title": "Week 3 Tutorial 3.3",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-42.vtt",
+            "yt_vid": "_0L5q5ndAdA"
+          },
+          {
+            "title": "L3.8: Pseudocode for three prizes problem",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-43.vtt",
+            "yt_vid": "2HkwehrkeK8"
+          },
+          {
+            "title": "L3.9:  Side effects of procedures",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-44.vtt",
+            "yt_vid": "X1a5V-JLs3g"
+          }
+        ],
+        "title": "Week 3"
+      },
+      {
+        "videos": [
+          {
+            "title": "Week 4 Tutorial 4.1",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-45.vtt",
+            "yt_vid": "nntNOfxrEt4"
+          },
+          {
+            "title": "L4.1: Concept of nested iterations using the birthday paradox (Naive approach)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-46.vtt",
+            "yt_vid": "dkhdzrcKPZE"
+          },
+          {
+            "title": "L4.2: Concept of nested iterations using the birthday paradox (Using binning)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-47.vtt",
+            "yt_vid": "y-Nh5PfKv0I"
+          },
+          {
+            "title": "Week 4 Tutorial 4.2",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-48.vtt",
+            "yt_vid": "sq19VzWcWwc"
+          },
+          {
+            "title": "L4.3: Importance of binning to reduce number of comparisons in nested iterations",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-49.vtt",
+            "yt_vid": "oAQFu1_QQiU"
+          },
+          {
+            "title": "L4.4: Concept of binning to avoid the complexity of nested iterations",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-50.vtt",
+            "yt_vid": "ommNFaCEFG8"
+          },
+          {
+            "title": "L4.5: Concept of fair teams",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-51.vtt",
+            "yt_vid": "TjwN5rAiMW0"
+          },
+          {
+            "title": "L4.6: Procedure to find same date of birth for different students",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-52.vtt",
+            "yt_vid": "F5C4F24A480"
+          },
+          {
+            "title": "L4.7: Procedure to resolve pronoun with its equivalent matching noun",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-53.vtt",
+            "yt_vid": "8aJDUs4cPxg"
+          },
+          {
+            "title": "Week 4 Tutorial 4.3",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-54.vtt",
+            "yt_vid": "PpxsV8U2GB8"
+          },
+          {
+            "title": "L4.8: Summary of contents introduced in week 1 to 4",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/20t1_cs1001/assets/img/Lec-55.vtt",
+            "yt_vid": "1oIdzO1o0G8"
+          }
+        ],
+        "title": "Week 4"
+      },
+      {
+        "videos": [
+          {
+            "title": "L5.1: Introduction to collections and list data structure",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-56.vtt",
+            "yt_vid": "ZNBlv9957YQ"
+          },
+          {
+            "title": "L5.2: Pseudocode for lists",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-57.vtt",
+            "yt_vid": "b0v9Hqt0XiM"
+          },
+          {
+            "title": "L5.3: Operations on the data collected in three prizes problem using lists",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-58.vtt",
+            "yt_vid": "p_udV4ZDysQ"
+          },
+          {
+            "title": "L5.4: Pseudocode for operations on the data collected in three prizes problem using lists",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-59.vtt",
+            "yt_vid": "6t1N-nlGM9c"
+          },
+          {
+            "title": "L5.5: Basic list operations",
+            "transcript_vtt_url": "",
+            "yt_vid": "mYdhja5CHfI"
+          },
+          {
+            "title": "L5.6: List construction and operations",
+            "transcript_vtt_url": "",
+            "yt_vid": "Fyg4avtoV5Y"
+          },
+          {
+            "title": "Tutorial 5.1: Tutorial on pseudocode for list functions",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-64.vtt",
+            "yt_vid": "70MlG-OQfKY"
+          },
+          {
+            "title": "L5.7: List of pairs and List of triples",
+            "transcript_vtt_url": "",
+            "yt_vid": "9hVBFSXVcbY"
+          }
+        ],
+        "title": "Week 5"
+      },
+      {
+        "videos": [
+          {
+            "title": "L6.1: List of lists",
+            "transcript_vtt_url": "",
+            "yt_vid": "B4e39Z4yz1A"
+          },
+          {
+            "title": "L6.2: Insertion sort and ordered list",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-60.vtt",
+            "yt_vid": "jOZo2hMcYCs"
+          },
+          {
+            "title": "L6.3: Pseudocode for insertion sort and ordered list",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-61.vtt",
+            "yt_vid": "5KX3DMNYe04"
+          },
+          {
+            "title": "L6.4: Examples using sorted lists",
+            "transcript_vtt_url": "",
+            "yt_vid": "JRwWVjr9130"
+          },
+          {
+            "title": "Tutorial 6.1: Tutorial on answering subpart pseudocode questions based on lists",
+            "transcript_vtt_url": "",
+            "yt_vid": "4u8V2pd3Y00"
+          },
+          {
+            "title": "L6.5: Systematic process of hypothesis verification to find relation between Mathematics and Physics marks using lists",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-62.vtt",
+            "yt_vid": "Lwn_JRcGnU8"
+          },
+          {
+            "title": "L6.6: Pseudocode for systematic process of hypothesis verification to find relation between Mathematics and Physics marks using lists",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-63.vtt",
+            "yt_vid": "RhpTEt7X3LQ"
+          },
+          {
+            "title": "L6.7: Introduction to train dataset",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-66.vtt",
+            "yt_vid": "E109brdwG9M"
+          },
+          {
+            "title": "Practice Assignment 6 - Solution",
+            "transcript_vtt_url": "",
+            "yt_vid": "qK8pGyM6W54"
+          }
+        ],
+        "title": "Week 6"
+      },
+      {
+        "videos": [
+          {
+            "title": "L7.1: Examples to introduce dictionary",
+            "transcript_vtt_url": "",
+            "yt_vid": "3LUC5mePTqs"
+          },
+          {
+            "title": "L7.1:  Concept of dictionary to solve birthday paradox problem",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-70.vtt",
+            "yt_vid": "AfVvV7vjbzU"
+          },
+          {
+            "title": "L7.3:  Pseudocode for dictionaries",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-72.vtt",
+            "yt_vid": "_2EQr4mpNgg"
+          },
+          {
+            "title": "L7.4: Relations among customers based on their spending patterns (Part 1)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-67.vtt",
+            "yt_vid": "KCkDAIEAPZ8"
+          },
+          {
+            "title": " L7.5: Relations among customers based on their spending patterns (Part 2)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-68.vtt",
+            "yt_vid": "D7WQ95MD8oA"
+          },
+          {
+            "title": "L7.6:  Introduction to dictionary data structure",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-69.vtt",
+            "yt_vid": "tDQCbJmjBho"
+          },
+          {
+            "title": "L7.7:  Pseudocodes for real-time examples using dictionaries",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-73.vtt",
+            "yt_vid": "N9wj8IyF__g"
+          }
+        ],
+        "title": "Week 7"
+      },
+      {
+        "videos": [
+          {
+            "title": "8.1 Dictionaries with lists as values",
+            "transcript_vtt_url": "",
+            "yt_vid": "QNnpNbQXjtQ"
+          },
+          {
+            "title": "L8.2:  Resolve pronoun with its equivalent matching noun using dictionary and ordered lists",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-71.vtt",
+            "yt_vid": "lwFx1MYitdI"
+          },
+          {
+            "title": "L8.3:  Dictionary comparison to find common elements in them",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-74.vtt",
+            "yt_vid": "XKXWaenPrlE"
+          },
+          {
+            "title": "L8.4: Procedure to find relations among customers based on their spending patterns",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-75.vtt",
+            "yt_vid": "8BGYaLjZ8_U"
+          },
+          {
+            "title": "L8.5: Side effects in pseudocodes for lists and dictionaries",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-76.vtt",
+            "yt_vid": "3c6EjWWyTA8"
+          }
+        ],
+        "title": "Week 8"
+      },
+      {
+        "videos": [
+          {
+            "title": " L9.1: Introduction to graph data structure",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-77.vtt",
+            "yt_vid": "b_AzRezXdBc"
+          },
+          {
+            "title": "L9.2: Introduction to matrices and implementation of matrix using nested dictionary",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-78.vtt",
+            "yt_vid": "XOqJJmCEj80"
+          },
+          {
+            "title": "L9.3: Undirected graph and cliques",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-79.vtt",
+            "yt_vid": "qxcoSkz1LiI"
+          },
+          {
+            "title": "L9.4: Concept of popular students using graph",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-80.vtt",
+            "yt_vid": "pKNujxxfFCw"
+          },
+          {
+            "title": " L9.5: Pseudocodes for real-time examples using graphs",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-81.vtt",
+            "yt_vid": "jfByDNcoAeQ"
+          },
+          {
+            "title": "L9.6: Concept of connected graph to represent the relationship between different nouns in a paragraph",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-82.vtt",
+            "yt_vid": "bC6ci_9UsKg"
+          },
+          {
+            "title": " L9.7: Represent direct trains using a graph and find a route using multiple hops",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-83.vtt",
+            "yt_vid": "hOi3um-NSrI"
+          }
+        ],
+        "title": "Week 9"
+      },
+      {
+        "videos": [
+          {
+            "title": "L10.1:  Representation of a graph as an adjacency matrix to find shortest distance and time",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-84.vtt",
+            "yt_vid": "3Zp41w34M4U"
+          },
+          {
+            "title": "L10.2:  Construction of a graph where trains are nodes and stations are edges",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-85.vtt",
+            "yt_vid": "srN2yiD-h14"
+          },
+          {
+            "title": "L10.3:  Pseudocodes for finding a route between two stations using no hops, one hop, two hops and n hops",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-86.vtt",
+            "yt_vid": "76Y8EHkvUlc"
+          },
+          {
+            "title": "L10.4:  Pseudocode for edge labelled graph",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-87.vtt",
+            "yt_vid": "iJ5Kfh550Gc"
+          }
+        ],
+        "title": "Week 10"
+      },
+      {
+        "videos": [
+          {
+            "title": "L11.1: Depth First Search (DFS) and recursive procedure call (Part 1)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-88.vtt",
+            "yt_vid": "2EcvGaIOjxg"
+          },
+          {
+            "title": "L11.2: Depth First Search (DFS) and recursive procedure call (Part 2)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-89.vtt",
+            "yt_vid": "eubZNsW5cCc"
+          },
+          {
+            "title": "L11.3: Depth First Search (DFS) and recursive procedure call (Part 3)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-90.vtt",
+            "yt_vid": "3b3LWVPBNak"
+          },
+          {
+            "title": "L11.4: Depth First Search (DFS) and recursive procedure call (Part 4)",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-91.vtt",
+            "yt_vid": "UCTO5JLyKY4"
+          },
+          {
+            "title": "L11.5: Pseudocode for recursion",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-92.vtt",
+            "yt_vid": "4xG0ghTIXoU"
+          },
+          {
+            "title": "L11.6: Pseudocode for Depth First Search (DFS) and recursive procedure call",
+            "transcript_vtt_url": "https://backend.seek.onlinedegree.iitm.ac.in/21t1_cs1001/assets/img/Lec-93.vtt",
+            "yt_vid": "iowt0GTVT5A"
+          }
+        ],
+        "title": "Week 11"
+      },
+      {
+        "videos": [
+          {
+            "title": "Tutorial 12.1:Tutorial on pseudocode for fundamentals of programming",
+            "transcript_vtt_url": "",
+            "yt_vid": "IZSoDuU7Hiw"
+          },
+          {
+            "title": "Tutorial 12.2:Tutorial on pseudocode for lists and dictionaries",
+            "transcript_vtt_url": "",
+            "yt_vid": "Sj1GxMSMkII"
+          },
+          {
+            "title": "Tutorial 12.3:Tutorial on pseudocode for graph, adjacency matrix and dictionary for graph/adjacency matrix",
+            "transcript_vtt_url": "",
+            "yt_vid": "gS4WYgkcBlA"
+          },
+          {
+            "title": "Tutorial 12.4:Tutorial on pseudocode for recursion and Depth First Search (DFS)",
+            "transcript_vtt_url": "",
+            "yt_vid": "nalNjASQjfs"
+          },
+          {
+            "title": "Lecture 12.5:Summary of contents introduced in this course",
+            "transcript_vtt_url": "",
+            "yt_vid": "hOiQjt5m5eM"
+          }
+        ],
+        "title": "Week 12"
+      },
+      {
+        "videos": [
+          {
+            "title": "summary week1",
+            "transcript_vtt_url": "",
+            "yt_vid": "394Tidpdk1k"
+          },
+          {
+            "title": "OPEN SESSION WEEK 2",
+            "transcript_vtt_url": "",
+            "yt_vid": "t9yRBbYlAa4"
+          },
+          {
+            "title": "SOLVE WITH US WEEK 2",
+            "transcript_vtt_url": "",
+            "yt_vid": "EUsER7JB0AU"
+          },
+          {
+            "title": "CT_Open Session Week 3",
+            "transcript_vtt_url": "",
+            "yt_vid": "jzEyO-Zy0zU"
+          },
+          {
+            "title": "CT_Solve with Us - Week 3",
+            "transcript_vtt_url": "",
+            "yt_vid": "EN9S_PEcXX0"
+          },
+          {
+            "title": "Open session 1-week 4",
+            "transcript_vtt_url": "",
+            "yt_vid": "6BEFS5t79Z8"
+          },
+          {
+            "title": "Open session 2 week 4",
+            "transcript_vtt_url": "",
+            "yt_vid": "c77yRwz2E8M"
+          }
+        ],
+        "title": "Live sessions"
+      }
+    ],
+    "course_id": "ns_23t2_cs1001",
+    "forum_url": "https://discourse.onlinedegree.iitm.ac.in/c/courses/ct-kb"
+  }
+]

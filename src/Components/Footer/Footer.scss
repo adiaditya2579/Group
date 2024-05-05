@@ -1,0 +1,46 @@
+@import '../../App.scss';
+
+.footer-outer-container {
+    height: 30vh;
+    background-color: $bg-dark;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    @include flexRow();
+
+    .links-container {
+
+        // border: 2px solid white;
+        h2 {
+            // border: 2px solid red;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        ul {
+            @include flexCol();
+            align-items: flex-start;
+            
+            li {
+                list-style: none;
+                color: $text-light2;
+                @include flexRow();
+                position: relative;
+                margin: 5px 0;
+                cursor: pointer;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+
+                .footer-link-icon-container{
+                    font-size: 1.5rem;
+                    margin-right: 10px;
+                    position: absolute;
+                    left: -30px;
+                }
+            }
+        }
+    }
+}

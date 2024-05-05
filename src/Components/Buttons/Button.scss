@@ -1,0 +1,69 @@
+@import '../../App.scss';
+
+.btn-outer-container {
+    // border: 2px solid $purple-dark;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 36px;
+    @include flexRow();
+    // width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    color: $purple-dark;
+
+    span {
+        @include flexRow();
+        font-size: 1.2rem;
+        color: $purple-dark;
+        margin-right: 5px;
+    }
+}
+
+.primary {
+    // background: linear-gradient(90deg, #5B21B6 0%, #c4b5fd 100%);
+    background-color: $purple-dark;
+    color: white;
+    transition: 100ms background ease-in-out, 100ms box-shadow ease-in-out;
+}
+
+.primary-outline {
+    border: 1px solid white;
+    font-weight: 500;
+    color: white;
+    background-color: $purple-dark;
+    transition: 100ms color ease-in-out, 100ms background-color ease-in-out;
+
+    &:hover {
+        // background: linear-gradient(90deg, #6437A0 0%, #9754CB 100%);
+        background-color: $text-dark;
+        color: white;
+    }
+}
+
+.secondary {
+    border: 2px solid $purple-dark;
+    color: $purple-dark;
+    transition: 100ms color ease-in-out, 100ms background-color ease-in-out;
+}
+
+.secondary-outline {
+    border: 2px solid white;
+    color: white;
+    transition: 100ms color ease-in-out, 100ms background-color ease-in-out;
+    font-weight: 500;
+
+    &:hover {
+        color: $bg-dark;
+        background-color: white;
+
+    }
+}
+
+.navbar-primary {
+    background-color: white;
+    border: $bg-dark;
+    color: $bg-dark;
+    font-weight: 500;
+    box-sizing: border-box;
+}

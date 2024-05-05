@@ -24,7 +24,7 @@ function Groups() {
     },[userData])
   return (
     <div>
-        {groupRules ? <GroupRules /> : homePage}
+        {groupRules ? <GroupRules onClose={()=> setGroupRules(false)} /> : homePage}
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React,{useContext} from 'react'
 import { RxCross2 } from "react-icons/rx";
 import { LoginContext } from "../../Contexts/LoginContect";
 import { useNavigate } from 'react-router-dom';
-function GroupRules() {
+function GroupRules({onClose}) {
   const { loginData, userData,handleSignIn } = useContext(LoginContext);
   const navigate = useNavigate()
   const handleclose  = ()=>{
@@ -14,7 +14,7 @@ function GroupRules() {
     if(!userData || !loginData){
       handleSignIn()
     }else{
-      
+      onClose()
     }
   }
   

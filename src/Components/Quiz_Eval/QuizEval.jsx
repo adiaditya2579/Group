@@ -1,10 +1,8 @@
 import { React, useState, useEffect } from "react";
 import "./QuizEval.css";
+import { VscCloudUpload } from "react-icons/vsc";
 import Button from "../Buttons/Button";
 import {
-  MdUpload,
-  MdUploadFile,
-  SlCloudUpload ,
   MdCheckCircle,
 } from "react-icons/md";
 import ss1 from "../../assets/steps/ss1.jpg";
@@ -134,7 +132,7 @@ function QuizEval() {
           />
           <label htmlFor="file">
             <span>
-              <SlCloudUpload/>
+              <VscCloudUpload/>
             </span>
             Upload Answer Transcript
           </label>

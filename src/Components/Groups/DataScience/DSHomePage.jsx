@@ -8,6 +8,7 @@ import { Groups } from "./Data";
 function DSHomePage() {
   // const [selectedSubjects, setSelectedSubjects] = useState([]);
   const [selectedLevel, setSelectedLevel] = useState("");
+  const [RecievedSubjects, setRecievedSubjects] = useState();
   const [result, setResult] = useState(null);
 
   const levelOptions = {
@@ -33,10 +34,22 @@ function DSHomePage() {
   const handleClose = () => {
     setResult("");
   };
+  const RecieveDataFromChild = (data) => {
+    setRecievedSubjects(
+      Groups.filter((group) => data.includes(group.groupname))
+    );
+
+    console.log(data);
+  };
 
   useEffect(() => {
     if (selectedLevel === "foundation") {
-      setResult(<DSFoundation onClose={handleClose} />);
+      setResult(
+        <DSFoundation
+          onClose={handleClose}
+          sendDatatoHomePage={RecieveDataFromChild}
+        />
+      );
     } else if (selectedLevel === "diploma") {
       setResult(<DSDeploma onClose={handleClose} />);
     } else if (selectedLevel === "degree") {
@@ -92,7 +105,8 @@ function DSHomePage() {
       </div>
       <div className=" h-screen w-screen bg-[#27272B] flex flex-col">
         <div className="flex flex-wrap gap-4 sm:gap-20  py-16 justify-center ">
-          {Groups.map((Group, index) => (
+          {/* {Groups.filter((group)=>group.groupname in RecievedSubjects)} */}
+          {RecievedSubjects && RecievedSubjects.map((Group, index) => (
             <div key={index}>
               <div className=" md:h-[250px] h-[220px] md:w-[180px] w-[152px] border-2 rounded-xl relative">
                 <div className=" md:h-32 h-28 md:w-32 w-28 mt-5 bg-white rounded-xl overflow-hidden absolute left-[50%] -translate-x-[50%]">
@@ -115,11 +129,8 @@ function DSHomePage() {
               </div>
             </div>
           ))}
-          
         </div>
-        
       </div>
-      
     </div>
   );
 }

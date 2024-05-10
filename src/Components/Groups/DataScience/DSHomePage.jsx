@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { TiGroup } from "react-icons/ti";
-import DSFoundation from "./FoundationForm";
+import FoundationForm from "./FoundationForm";
 import DSDegree from "./DegreeForm";
 import DSDeploma from "./DeplomaForm";
 import { Groups } from "./Data";
@@ -44,7 +44,7 @@ function DSHomePage() {
   useEffect(() => {
     if (selectedLevel === "foundation") {
       setResult(
-        <DSFoundation
+        <FoundationForm
           onClose={handleClose}
           sendDatatoHomePage={RecieveDataFromChild}
         />);
@@ -66,7 +66,7 @@ function DSHomePage() {
 
   const editSubject = () => {
     if (selectedLevel === "foundation") {
-      setResult(<DSFoundation onClose={handleClose} />);
+      setResult(<FoundationForm onClose={handleClose} />);
     }
     if (selectedLevel === "diploma") {
       setResult(<DSDeploma onClose={handleClose} />);

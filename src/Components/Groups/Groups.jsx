@@ -13,6 +13,8 @@ function Groups() {
         
         if (!userData || !loginData) {
             setGroupRules(true);
+        }else{
+            setGroupRules(true);
         }
     }, [userData, loginData]);
     useEffect(()=>{

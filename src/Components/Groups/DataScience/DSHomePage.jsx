@@ -8,7 +8,7 @@ import { Groups } from "./Data";
 function DSHomePage() {
   // const [selectedSubjects, setSelectedSubjects] = useState([]);
   const [selectedLevel, setSelectedLevel] = useState("");
-  const [RecievedSubjects, setRecievedSubjects] = useState();
+  const [RecievedSubjects, setRecievedSubjects] = useState(); 
   const [result, setResult] = useState(null);
 
   const levelOptions = {
@@ -38,7 +38,6 @@ function DSHomePage() {
     setRecievedSubjects(
       Groups.filter((group) => data.includes(group.groupname))
     );
-
     console.log(data);
   };
 
@@ -48,14 +47,22 @@ function DSHomePage() {
         <DSFoundation
           onClose={handleClose}
           sendDatatoHomePage={RecieveDataFromChild}
-        />
-      );
+        />);
     } else if (selectedLevel === "diploma") {
-      setResult(<DSDeploma onClose={handleClose} />);
+      setResult(
+        <DSDeploma 
+          onClose={handleClose}
+          sendDatatoHomePage={RecieveDataFromChild} 
+        />);
     } else if (selectedLevel === "degree") {
-      setResult(<DSDegree onClose={handleClose} />);
+      setResult(
+      <DSDegree 
+        onClose={handleClose} 
+        sendDatatoHomePage={RecieveDataFromChild}/>);
     }
   }, [, selectedLevel]);
+
+  
 
   const editSubject = () => {
     if (selectedLevel === "foundation") {

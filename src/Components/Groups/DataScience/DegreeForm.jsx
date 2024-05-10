@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { RxCross2 } from "react-icons/rx";
 
-function DSDegree({onClose}) {
+function DSDegree({ onClose, onSubmit, sendDatatoHomePage }) {
   const [subjects, setSubjects] = useState({
-    'Software Testing': false,
+    'Software Test': false,
     'Software Engineering': false,
     'Deep Learning': false,
     'AI': false,
@@ -38,7 +38,10 @@ function DSDegree({onClose}) {
   };
   const selectedSubjects = ()=>{
     const selectedSubjects = Object.keys(subjects).filter((subject) => subjects[subject]);
-    console.log("Selected subjects:", selectedSubjects);
+    onSubmit = { selectedSubjects };
+    sendDatatoHomePage(selectedSubjects);
+    // alert(selectedSubjects);
+    onClose();
   }
   return (
     <div>

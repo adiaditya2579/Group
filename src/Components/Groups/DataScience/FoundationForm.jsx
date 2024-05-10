@@ -17,12 +17,10 @@ function DSFoundation({ onClose, onSubmit, sendDatatoHomePage }) {
     );
     onSubmit = { selectedSubjects };
     sendDatatoHomePage(selectedSubjects);
-    // alert(selectedSubjects);
     onClose();
   };
   const toggleCheckbox = (subject) => {
-    const selectedSubjectsCount =
-      Object.values(subjects).filter(Boolean).length;
+    const selectedSubjectsCount = Object.values(subjects).filter(Boolean).length;
 
     if (subjects[subject] || selectedSubjectsCount < 4) {
       setSubjects({

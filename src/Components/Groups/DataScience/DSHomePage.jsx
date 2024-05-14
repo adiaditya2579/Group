@@ -7,7 +7,7 @@ import { Groups } from "./Data";
 
 
 function DSHomePage() {
-  // const [selectedSubjects, setSelectedSubjects] = useState([]);
+
   const [selectedLevel, setSelectedLevel] = useState("");
   const [RecievedSubjects, setRecievedSubjects] = useState(); 
   const [result, setResult] = useState(null);
@@ -60,13 +60,13 @@ function DSHomePage() {
 
   const editSubject = () => {
     if (selectedLevel === "foundation") {
-      setResult(<FoundationForm onClose={handleClose} />);
+      setResult(<FoundationForm onClose={handleClose} sendDatatoHomePage={RecieveDataFromChild} />);
     }
     if (selectedLevel === "diploma") {
-      setResult(<DSDeploma onClose={handleClose} />);
+      setResult(<DSDeploma onClose={handleClose} sendDatatoHomePage={RecieveDataFromChild} />);
     }
     if (selectedLevel === "degree") {
-      setResult(<DSDegree onClose={handleClose} />);
+      setResult(<DSDegree onClose={handleClose} sendDatatoHomePage={RecieveDataFromChild} />);
     }
   };
   const GroupHandal = (url) => {

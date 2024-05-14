@@ -1,8 +1,8 @@
 import React,{useState,useContext,useEffect} from 'react'
 import { LoginContext } from "../../Contexts/LoginContect";
 import DSHomePage from './DataScience/DSHomePage'
-import ESHomePage from './Electronics/ESHomePage'
 import GroupRules from './GroupRules'
+import Qualifier from './Qualifier/Qualifier';
 
 function Groups() {
     const { loginData, userData } = useContext(LoginContext);
@@ -20,8 +20,11 @@ function Groups() {
     useEffect(()=>{
         if(userData && userData.email?. includes('@ds')){
             sethomePage(<DSHomePage/>)
+        }
+        else if(userData && userData.email?. includes('@es')){
+            sethomePage()
         }else{
-            sethomePage(<ESHomePage/>)
+            sethomePage(<Qualifier/>)
         }
     },[userData])
   return (

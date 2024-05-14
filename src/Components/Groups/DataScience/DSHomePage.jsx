@@ -5,6 +5,7 @@ import DSDegree from "./DegreeForm";
 import DSDeploma from "./DeplomaForm";
 import { Groups } from "./Data";
 
+
 function DSHomePage() {
   // const [selectedSubjects, setSelectedSubjects] = useState([]);
   const [selectedLevel, setSelectedLevel] = useState("");
@@ -19,12 +20,6 @@ function DSHomePage() {
     ],
   };
 
-  // const handleSubjectSelection = (selectedSubjects) => {
-  //   setSelectedSubjects(selectedSubjects);
-  // };
-  // const filteredGroups = Groups.filter((group) =>
-  //   selectedSubjects.includes(group.groupname)
-  // );
 
   const handleLevelChange = (selectedLevel) => {
     setSelectedLevel(selectedLevel);
@@ -62,7 +57,6 @@ function DSHomePage() {
     }
   }, [, selectedLevel]);
 
-  
 
   const editSubject = () => {
     if (selectedLevel === "foundation") {
@@ -80,7 +74,7 @@ function DSHomePage() {
   };
 
   return (
-    <div className="relative">
+    <div className="relative overscroll-none">
       <div className="bg-[#27272B]">
         <div className="min-h-[10vh] md:flex justify-between md:flex-wrap border-b-[1px] border-[#393939] px-[5%] py-2">
           <div className="flex justify-center items-center gap-2 text-2xl font-semibold text-white">
@@ -110,7 +104,7 @@ function DSHomePage() {
         </button>
         <div className="absolute z-20">{result}</div>
       </div>
-      <div className=" h-screen w-screen bg-[#27272B] flex flex-col">
+      <div className="  w-screen bg-[#27272B] flex flex-col">
         <div className="flex flex-wrap gap-4 sm:gap-20  py-16 justify-center ">
           {/* {Groups.filter((group)=>group.groupname in RecievedSubjects)} */}
           {RecievedSubjects && RecievedSubjects.map((Group, index) => (
@@ -136,8 +130,13 @@ function DSHomePage() {
               </div>
             </div>
           ))}
+
+          
+          
+          
         </div>
       </div>
+      
     </div>
   );
 }

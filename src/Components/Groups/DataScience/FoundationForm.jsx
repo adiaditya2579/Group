@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
-function DSFoundation({ onClose, onSubmit, sendDatatoHomePage }) {
+function FoundationForm({ onClose, onSubmit, sendDatatoHomePage }) {
   const [subjects, setSubjects] = useState({
-    Python: false,
-    CT: false,
+    "Python": false,
+    "CT": false,
     "Math 1": false,
     "Math 2": false,
     "English 1": false,
@@ -19,6 +19,7 @@ function DSFoundation({ onClose, onSubmit, sendDatatoHomePage }) {
     sendDatatoHomePage(selectedSubjects);
     onClose();
   };
+  
   const toggleCheckbox = (subject) => {
     const selectedSubjectsCount = Object.values(subjects).filter(Boolean).length;
 
@@ -81,4 +82,4 @@ function DSFoundation({ onClose, onSubmit, sendDatatoHomePage }) {
   );
 }
 
-export default DSFoundation;
+export default FoundationForm;

@@ -30,7 +30,7 @@ function GroupRules({onClose}) {
           <li>No Assignment Sharing before Deadline Day.</li>
           <li>No Abuse/Bullying/Personal attack</li>
           <li>join your Current Courses Group only</li>
-          <li>Login with a student email ID is preferred</li>  
+          <li>Login with a student email ID </li>  
         </div>
         <button  onClick={handalbtn} className=' absolute bottom-0 my-2 mr-4 px-5 py-1  right-0  rounded-full text-white font-bold bg-[#6d28d9] '>{!userData || !loginData ? "Login" : "Agree"}</button>
       </div>

@@ -27,6 +27,18 @@ export const Groups = [
   {
     id:2,
     profile:'https://i.ibb.co/XYBYHMH/IMG-20231106-033208.jpg',
+    groupname:'Math 1',
+    url:'https://www.linkedin.com/in/chingaari-sharma/'
+  },
+  {
+    id:2,
+    profile:'https://i.ibb.co/XYBYHMH/IMG-20231106-033208.jpg',
+    groupname:'Math 2',
+    url:'https://www.linkedin.com/in/chingaari-sharma/'
+  },
+  {
+    id:2,
+    profile:'https://i.ibb.co/XYBYHMH/IMG-20231106-033208.jpg',
     groupname:'Stats 1',
     url:'https://www.linkedin.com/in/chingaari-sharma/'
   },
@@ -182,3 +194,6 @@ export const Groups = [
     url:'https://www.linkedin.com/in/chingaari-sharma/'
   },
 ]
+
+
+
